@@ -2,7 +2,7 @@
 
 Nama Kelompok :
 
-- M Hafid Nur Firmansyah
+- M Hafid Nur Firmansyah <br>
   Restaurant Layout Flutter
 
 ## Getting Started

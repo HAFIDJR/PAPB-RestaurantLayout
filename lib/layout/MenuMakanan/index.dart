@@ -15,12 +15,11 @@ class CategoryFood extends StatelessWidget {
       child: ListView(
         scrollDirection: Axis.horizontal,
         children: [
-          Expanded(
-              child: IconCategory(
+          IconCategory(
             colorBox: Colors.green,
             iconCategory: FontAwesomeIcons.bowlFood,
             textFood: "Menu Special",
-          )),
+          ),
           IconCategory(
             colorBox: Colors.red,
             iconCategory: FontAwesomeIcons.utensils,

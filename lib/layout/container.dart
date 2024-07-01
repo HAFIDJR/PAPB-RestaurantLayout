@@ -41,18 +41,40 @@ class MyApp extends StatelessWidget {
                     fontSize: 30, fontFamily: AutofillHints.addressCity),
               ),
             ),
-            listFood(
-                titleFood: "Pecel Sambel Tumpang",
-                descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
-            listFood(
-                titleFood: "Pecel Sambel Tumpang",
-                descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
-            listFood(
-                titleFood: "Pecel Sambel Tumpang",
-                descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
-            listFood(
-                titleFood: "Pecel Sambel Tumpang",
-                descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
+            Container(
+              width: double.infinity,
+              height: 200,
+              child: SingleChildScrollView(
+                child: Column(
+                  children: [
+                    listFood(
+                        titleFood: "Pecel Sambel Tumpang",
+                        descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
+                    listFood(
+                        titleFood: "Pecel Sambel Tumpang",
+                        descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
+                    listFood(
+                        titleFood: "Pecel Sambel Tumpang",
+                        descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
+                    listFood(
+                        titleFood: "Pecel Sambel Tumpang",
+                        descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
+                    listFood(
+                        titleFood: "Pecel Sambel Tumpang",
+                        descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
+                    listFood(
+                        titleFood: "Pecel Sambel Tumpang",
+                        descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
+                    listFood(
+                        titleFood: "Pecel Sambel Tumpang",
+                        descriptionFood: "Pecel ,Sambel Tumpang ,Telur"),
+                    listFood(
+                        titleFood: "Pecel Sambel Tumpang",
+                        descriptionFood: "Pecel ,Sambel Tumpang ,Telur")
+                  ],
+                ),
+              ),
+            ),
             Container(
               padding: EdgeInsets.all(10),
               transformAlignment: Alignment.topLeft,
